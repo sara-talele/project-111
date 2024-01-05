@@ -1,25 +1,41 @@
 body {
-    color: rgb(98, 66, 225);
-    background-color:rgb(2, 255, 255);
-
+    color: white;
+    background-color: rgb(210, 7, 210);
 }
 
-.heading {
-    width: 80%;
-    font-size: 25px;
-
+span {
+    font-size: 30px;
 }
 
 #camera,
 #result {
-    border: 2px solid rgb(172, 107, 107);
-    width: 350px;
-    height: 300px;
+    border: 2px dashed black;
+    width: 330px;
+    height: 280px;
 }
 
-.name_object,
-#result_name,
-#result_accuracy {
-    color: rgb(71, 19, 120);
+#hand_gesture_name1 {
+    color: black;
+}
 
+.hand_gesture_name {
+    font-size: 35px;
+}
+
+.hand_gesture {
+    font-size: 45px;
+}
+
+.heading {
+    font-size: 20px;
+    border-radius: 8px;
+    letter-spacing: 8px;
+}
+
+label {
+    font-size: 10px;
+    color: blue;
+    background-color: aquamarine;
+    padding: 6px;
+    border-radius: 10px;
 }
